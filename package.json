@@ -1,0 +1,16 @@
+{
+  "name": "db-dolar-hoy",
+  "version": "1.0.0",
+  "description": "allow the use of dolar hoy",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Gabriel Alabi",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.26.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.3"
+  }
+}
