@@ -6,9 +6,7 @@ const cors = require('cors');
 app.use(cors({
   origin: '*'
 }))
-app.get('/', (req,res,next) => {
-    res.send('holiiii')
-})
+
 app.get("/:endpoint([\\/\\w\\.-]*)", (req, res, next) => {
     let endpoint = 'https://api-dolar-argentina.herokuapp.com/api/' + req.params.endpoint;
     axios.get(endpoint).then(response => {
